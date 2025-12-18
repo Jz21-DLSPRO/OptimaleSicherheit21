@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<h3>Bag Checks</h3>
+<p>Manual checks and handheld metal detectors are used depending on the risk level of the event.</p>
+</div>
+<div class="card">
+<h3>Fan Separation</h3>
+<p>Separate routes for home and away supporters reduce conflict potential.</p>
+</div>
+</div>
+</section>
+
+
+<section id="inside">
+<h2>Inside the Stadium</h2>
+<p>Continuous monitoring and steward presence ensure safety without disrupting the fan experience.</p>
+<div class="grid">
+<div class="card">
+<h3>Crowd Monitoring</h3>
+<p>Concourses and seating areas are observed to prevent overcrowding and maintain emergency routes.</p>
+</div>
+<div class="card">
+<h3>CCTV Surveillance</h3>
+<p>All public areas are covered by cameras monitored from the control room.</p>
+</div>
+<div class="card">
+<h3>Steward Interaction</h3>
+<p>Visible, trained staff provide assistance and de-escalate conflicts early.</p>
+</div>
+</div>
+</section>
+
+
+<section id="emergency">
+<h2>Emergency Scenarios</h2>
+<p>Click on a scenario to see how the stadium responds in real time.</p>
+<div class="grid">
+<div class="card scenario" onclick="activate(this)">
+<h3>Medical Emergency</h3>
+<p>On-site paramedics respond immediately while stewards secure access routes.</p>
+</div>
+<div class="card scenario" onclick="activate(this)">
+<h3>Fire Alarm</h3>
+<p>Automatic detection systems activate evacuation procedures in affected areas.</p>
+</div>
+<div class="card scenario" onclick="activate(this)">
+<h3>Partial Evacuation</h3>
+<p>Clear announcements and guided exits ensure calm and orderly movement.</p>
+</div>
+</div>
+</section>
+
+
+<section id="exit">
+<h2>Leaving After the Final Whistle</h2>
+<p>A structured exit strategy ensures that all spectators leave the stadium safely and efficiently.</p>
+<div class="grid">
+<div class="card">
+<h3>Controlled Fan Flow</h3>
+<p>Stewards guide spectators towards transport hubs and parking areas.</p>
+</div>
+<div class="card">
+<h3>Police Coordination</h3>
+<p>Authorities manage traffic and public order outside the venue.</p>
+</div>
+<div class="card">
+<h3>Post-Event Monitoring</h3>
+<p>Lighting and surveillance remain active until the area is fully cleared.</p>
+</div>
+</div>
+</section>
+
+
+<footer>
+<p>Safety Concept Project – 25,000-Seat Stadium<br>Designed and presented by Jovin</p>
+</footer>
+
+
+<script>
+function activate(el) {
+document.querySelectorAll('.scenario').forEach(s => s.classList.remove('active'));
+el.classList.add('active');
+}
+</script>
+
+
+</body>
+</html>
